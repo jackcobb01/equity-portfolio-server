@@ -1,0 +1,25 @@
+{
+  "name": "equity-portfolio-server",
+  "version": "1.0.0",
+  "description": "Server that the equity portfolio tracker (client) talks to.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackcobb01/equity-portfolio-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackcobb01/equity-portfolio-server/issues"
+  },
+  "homepage": "https://github.com/jackcobb01/equity-portfolio-server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
